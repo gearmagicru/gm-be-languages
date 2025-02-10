@@ -2,6 +2,9 @@
 
 Модуль предназначен для организации управления языками сайта и Панели управления GM Panel.
 
+## Скриншот
+<img src="https://github.com/gearmagicru/gm-be-languages/blob/master/assets/help/grid.png?raw=true" width="90%">
+
 ## Установка
 
 Для добавления модуля в ваш проект, вы можете просто выполнить команду ниже:
