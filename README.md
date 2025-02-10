@@ -3,9 +3,7 @@
 Модуль предназначен для организации управления языками сайта и Панели управления GM Panel.
 
 ## Скриншот
-<div style="text-align:center">
-<img src="https://github.com/gearmagicru/gm-be-languages/blob/master/assets/help/grid.png?raw=true" width="90%" style="border:1px solid silver">
-</div>
+<img src="https://github.com/gearmagicru/gm-be-languages/blob/master/assets/help/grid.png?raw=true" width="90%" style="border:10px solid silver">
 
 ## Установка
 
