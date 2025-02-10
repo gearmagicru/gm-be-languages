@@ -1,0 +1,23 @@
+[{
+    "xtype": "fieldset",
+    "title": "Базовый язык",
+    "items": [{
+        "xtype": "combobox",
+        "anchor": "100%",
+        "hideLabel": true,
+        "name": "baseLanguage",
+        "labelWidth": 105,
+        "store": {
+            "data": "@storeData",
+            "fields": ["id", "name", "region", "script", "locale"]
+        },
+        "displayField": "name",
+        "valueField": "id",
+        "hiddenField": "baseLanguage",
+        "queryMode": "local",
+        "editable": true,
+        "listConfig": {
+            "itemTpl": ["<div>{name} {region}, <span style=\"text-transform:lowercase;\">{script}</span>{locale}</div>"]
+        }
+    }]
+}]

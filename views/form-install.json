@@ -1,0 +1,111 @@
+[
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Full name",
+        "name": "name"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Name",
+        "name": "shortName"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Country",
+        "name": "country"
+    },
+    {
+        "xtype": "label",
+        "ui": "header-line",
+        "text": "#Attributes"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Tag",
+        "name": "tag"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Slug",
+        "name": "slug"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Locale",
+        "name": "locale"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Alternative",
+        "name": "alternative"
+    },
+    {
+        "xtype": "displayfield",
+        "name": "available",
+        "ui": "parameter",
+        "fieldLabel": "#Available for"
+    },
+    {
+        "xtype": "hidden",
+        "name": "code"
+    },
+    {
+        "xtype": "label",
+        "ui": "header-line",
+        "text": "#Identifiers"
+    },
+    {
+        "fieldLabel": "#Identifier",
+        "name": "iCode",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    },
+    {
+        "fieldLabel": "#Language code",
+        "name": "languageCode",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    },
+    {
+        "fieldLabel": "#Country code",
+        "name": "countryCode",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    },
+    {
+        "xtype": "label",
+        "ui": "header-line",
+        "text": "#Version"
+    },
+    {
+        "fieldLabel": "#Number",
+        "name": "versionNumber",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    },
+    {
+        "fieldLabel": "#Date",
+        "name": "versionDate",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    },
+    {
+        "fieldLabel": "#Author",
+        "name": "versionAuthor",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    },
+    {
+        "fieldLabel": "#Translated",
+        "name": "translated",
+        "xtype": "displayfield",
+        "ui": "parameter"
+    }
+]

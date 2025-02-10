@@ -1,0 +1,102 @@
+[
+    {
+        "xtype": "fieldset",
+        "title": "#Package language",
+        "defaults": {
+            "xtype": "displayfield",
+            "labelWidth": 100,
+            "labelAlign": "right"
+        },
+        "items": [
+            {
+                "fieldLabel": "#Full name",
+                "ui": "parameter-head",
+                "name": "name"
+            },
+            {
+                "fieldLabel": "#Name",
+                "ui": "parameter-head",
+                "name": "shortName"
+            },
+            {
+                "fieldLabel": "#Country",
+                "ui": "parameter-head",
+                "name": "country"
+            },
+            {
+                "ui": "parameter",
+                "fieldLabel": "#Tag",
+                "name": "tag"
+            },
+            {
+                "ui": "parameter",
+                "fieldLabel": "#Slug",
+                "name": "slug"
+            },
+            {
+                "ui": "parameter",
+                "fieldLabel": "#Locale",
+                "name": "locale"
+            },
+            {
+                "xtype": "displayfield",
+                "ui": "parameter",
+                "fieldLabel": "#Available for",
+                "labelAlign": "right",
+                "name": "available"
+            }
+        ]
+    },
+    {
+        "xtype": "fieldset",
+        "title": "#Identifiers",
+        "defaults": {
+            "xtype": "displayfield",
+            "ui": "parameter",
+            "labelWidth": 95,
+            "labelAlign": "right"
+        },
+        "items": [
+            {
+                "fieldLabel": "#Identifier",
+                "name": "code"
+            },
+            {
+                "fieldLabel": "#Language code",
+                "name": "languageCode"
+            },
+            {
+                "fieldLabel": "#Country code",
+                "name": "countryCode"
+            }
+        ]
+    },
+    {
+        "xtype": "fieldset",
+        "title": "#Version",
+        "defaults": {
+            "xtype": "displayfield",
+            "ui": "parameter",
+            "labelWidth": 90,
+            "labelAlign": "right"
+        },
+        "items": [
+            {
+                "fieldLabel": "#Number",
+                "name": "versionNumber"
+            },
+            {
+                "fieldLabel": "#Date",
+                "name": "versionDate"
+            },
+            {
+                "fieldLabel": "#Author",
+                "name": "versionAuthor"
+            },
+            {
+                "fieldLabel": "#Translated",
+                "name": "translated"
+            }
+        ]
+    }
+]
