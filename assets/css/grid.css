@@ -1,0 +1,57 @@
+/*!
+ * Сетка (Grid).
+ * 
+ * Модуль "Языки".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+#gm-languages-grid .x-grid-view {
+    background: url("../images/watermark.svg") no-repeat calc(100% - 25px) calc(100% - 20px);
+    background-size: 100px;
+}
+
+
+/**
+ * Панель инструментов сетки.
+ */
+/* Значок "Установить" */
+.gm-languages__icon-install_large,
+.gm-languages__icon-install_medium,
+.gm-languages__icon-install { background-image: url("../images/icon-install.svg"); }
+.gm-languages__icon-install_small { background-image: url("../images/icon-install_small.svg"); }
+/* Значок "Демонтаж" */
+.gm-languages__icon-uninstall_large,
+.gm-languages__icon-uninstall_medium,
+.gm-languages__icon-uninstall { background-image: url("../images/icon-uninstall.svg"); }
+.gm-languages__icon-uninstall_small { background-image: url("../images/icon-uninstall_small.svg"); }
+/* Значок "Информация" */
+.gm-languages__icon-info_large,
+.gm-languages__icon-info_medium,
+.gm-languages__icon-info { background-image: url("../images/icon-info.svg"); }
+.gm-languages__icon-info_small { background-image: url("../images/icon-info_small.svg"); }
+
+
+/**
+ * Статусы.
+ */
+/* Статус языка */
+.gm-languages-grid__status {
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+    min-width: 100px;
+    display: block;
+}
+/* Статус "Установлен" */
+.gm-languages-grid__status_installed {
+    background-color: #f1f1f1;
+    color: #217346;
+}
+/* Статус "Не Установлен" */
+.gm-languages-grid__status_not_installed {
+    background-color: #f1f1f1;
+    color: #4d81b8;
+}
