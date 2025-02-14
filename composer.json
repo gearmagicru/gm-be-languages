@@ -1,13 +1,7 @@
 {
     "name": "gearmagicru/gm-be-languages",
-    "description": "Control panel module \"Languages\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "GM Panel",
-        "module",
-        "languages"
-    ],
+    "description": "Control Panel module \"Languages\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-module", "module", "languages"],
     "homepage": "https://apps.gearmagic.ru/component/gm-be-languages",
     "type": "component",
     "license": "MIT",
